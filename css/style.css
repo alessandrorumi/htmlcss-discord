@@ -30,12 +30,24 @@ h2 {
 
 h3 {
   font-size: 26px;
+  color: #8ea1e1;
+  margin-bottom: 10px;
+}
+
+h4{
+  color: #8ea1e1;
 }
 
 p {
   font-size: 16px;
   line-height: 30px;
   color: rgba(35,39,42,255);
+}
+
+i {
+  color: white;
+  margin-right: 15px;
+  margin-top: 10px;
 }
 
 .section-one,
@@ -45,6 +57,15 @@ p {
 .section-five {
   padding-top: 125px;
   padding-bottom: 125px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  color: white;
+  line-height: 32px;
 }
 
 /* Stile Header */
@@ -160,7 +181,7 @@ p {
 /* Stile Section 3 */
 
 .section-three  {
-  background-color: lightgray;
+  background-color: rgb(247, 247, 247);
   display: flex;
   justify-content: center;
 }
@@ -201,7 +222,7 @@ p {
 /* Stile Section 5 */
 
 .section-five {
-  background-color: lightgray;
+  background-color: rgb(247, 247, 247);
   display: flex;
   justify-content: center;
 }
@@ -242,74 +263,60 @@ p {
 
 .footer-top  {
   background-color: rgba(35,39,42,255);
-  height: 450px;
   display: flex;
   justify-content: center;
-  padding-top: 5px;
 }
 
 .footer-top-container  {
   width: 65%;
-  height: 415px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: 2px dotted black;
+  margin-top: 65px;
 }
 
-.footer-top-container-left {
-  width: 35%;
-  height: 100%;
-  border: 2px dotted black;
-  display: flex;
-  flex-direction: column;
+.img-ita {
+  width: 20px;
+  float: left;
 }
+
+span {
+  margin-left: 5px;
+  color: white;
+  font-size: 15px;
+}
+
+.footer-top-container-left img {
+  width: 100%;
+}
+
 
 .footer-top-container-right {
-  width: 65%;
-  height: 100%;
-  border: 2px dotted black;
+  width: 72%;
   display: flex;
 }
 
 .element-right {
   width: 25%;
-  height: 100%;
-  border: 2px dotted white;
 }
 
 /* Stile Footer Bottom*/
 
-hr {
-  color: white;
-}
-
 .footer-bottom {
   background-color: rgba(35,39,42,255);
-  height: 80px;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  padding-top: 25px;
 }
 
 .footer-bottom-container {
-  background-color: aquamarine;
-  height: 50px;
   width: 65%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #8ea1e1;;
 }
 
-.footer-bottom-container div {
-  border: 1px dotted black;
-}
-
-.footer-bottom-container-left, .footer-bottom-container-right {
-  padding: 5px ;
-  background-color: pink;
-} 
-
-.footer-bottom-container-right {
-  text-align: end;
+.footer-bottom-container-right button {
+  background-color: #8ea1e1;
+  color: white;
 }
