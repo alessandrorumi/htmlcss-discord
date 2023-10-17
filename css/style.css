@@ -76,7 +76,16 @@ p {
   border: none;
 }
 
+.section-background {
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
 /* Stile Section 1 */
+
+.section-one > .section-background {
+  padding: 0;
+}
 
 .section-one > .section-background {
   background-image: url(../img/jumbo.png);
@@ -119,11 +128,6 @@ p {
 
 /* Stile Section 2 */
 
-.section-two {
-  padding-top: 100px;
-  padding-bottom: 200px;
-}
-
 .section-two > .section-background  {
   background-color: white;
   display: flex;
@@ -149,42 +153,21 @@ p {
 
 .section-three > .section-background  {
   background-color: lightgray;
-  height: 450px;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .section-three .section-container  {
-  background-color: rgb(48, 170, 246);
-  width: 65%;
-  height: 400px;
+  width: 70%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: 2px dotted black;
 }
 
-.section-three .section-container-right {
-  background-color: rgb(48, 170, 246);
-  width: 60%;
-  height: 100%;
-  border: 2px dotted black;
-}
-
-.section-three .section-container-left {
-  background-color: palevioletred;
-  width: 40%;
-  height: 100%;
-  border: 2px dotted black;
+.section-three-container-left-title {
+  margin-top: 30px;
+  margin-bottom: 25px;
 }
 
 /* Stile Section 4 */
-
-.section-four {
-  padding-top: 100px;
-  padding-bottom: 200px;
-}
 
 .section-four > .section-background  {
   background-color: white;
