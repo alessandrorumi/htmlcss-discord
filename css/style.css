@@ -38,9 +38,13 @@ p {
   color: rgba(35,39,42,255);
 }
 
-.section-background {
-  padding-top: 100px;
-  padding-bottom: 200px;
+.section-one,
+.section-two,
+.section-three,
+.section-four,
+.section-five {
+  padding-top: 125px;
+  padding-bottom: 125px;
 }
 
 /* Stile Header */
@@ -55,7 +59,7 @@ p {
 
 .header-container {
   color: white;
-  width: 70%;
+  width: 65%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -88,11 +92,11 @@ p {
 
 /* Stile Section 1 */
 
-.section-one > .section-background {
+.section-one {
   padding: 0;
 }
 
-.section-one > .section-background {
+.section-one {
   background-image: url(../img/jumbo.png);
   background-size: cover;
   display: flex;
@@ -132,14 +136,14 @@ p {
 
 /* Stile Section 2 */
 
-.section-two > .section-background  {
+.section-two  {
   background-color: white;
   display: flex;
   justify-content: center;
 }
 
 .section-two .section-container  { 
-  width: 70%;
+  width: 65%;
   display: flex;
   justify-content: space-between;
 }
@@ -155,14 +159,14 @@ p {
 
 /* Stile Section 3 */
 
-.section-three > .section-background  {
+.section-three  {
   background-color: lightgray;
   display: flex;
   justify-content: center;
 }
 
-.section-three .section-container  {
-  width: 70%;
+.section-three .section-container {
+  width: 65%;
   display: flex;
 }
 
@@ -180,7 +184,7 @@ p {
 }
 
 .section-four .section-container  { 
-  width: 70%;
+  width: 65%;
   display: flex;
   justify-content: space-between;
 }
@@ -196,7 +200,7 @@ p {
 
 /* Stile Section 5 */
 
-.section-five > .section-background {
+.section-five {
   background-color: lightgray;
   display: flex;
   justify-content: center;
@@ -236,7 +240,7 @@ p {
 
 /* Stile Footer Top*/
 
-.footer-top-background  {
+.footer-top  {
   background-color: rgba(35,39,42,255);
   height: 450px;
   display: flex;
@@ -257,6 +261,8 @@ p {
   width: 35%;
   height: 100%;
   border: 2px dotted black;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-top-container-right {
@@ -266,7 +272,7 @@ p {
   display: flex;
 }
 
-.elements-right {
+.element-right {
   width: 25%;
   height: 100%;
   border: 2px dotted white;
@@ -278,7 +284,7 @@ hr {
   color: white;
 }
 
-.footer-bottom-background {
+.footer-bottom {
   background-color: rgba(35,39,42,255);
   height: 80px;
   display: flex;
