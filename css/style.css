@@ -16,6 +16,23 @@ button {
   border: none;
 }
 
+h1 {
+  color: white;
+  font-size: 60px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 42px;
+  color: rgba(35,39,42,255);
+}
+
+p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
 /* Stile Header */
 
 .header-background {
@@ -28,7 +45,7 @@ button {
 
 .header-container {
   color: white;
-  width: 65%;
+  width: 70%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -78,27 +95,19 @@ button {
   align-items: center;
 }
 
-h1 {
-  color: white;
-  font-size: 60px;
-  margin-bottom: 40px;
-  text-align: center;
-}
-
-p {
-  color: white;
+.section-container-top > p {
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
   text-align: center;
   margin-bottom: 20px;
+  color: white;
 }
 
 .jumbo-button-one {
   margin-right: 10px;
   font-size: 18px;
 }
-
 
 .jumbo-button-two {
   background-color: rgba(35,39,42,255);
@@ -110,36 +119,34 @@ p {
 
 /* Stile Section 2 */
 
-.section-two > .section-background  {
-  background-color: white;
-  height: 450px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.section-two {
+  padding-top: 100px;
+  padding-bottom: 200px;
 }
 
-.section-two .section-container  {
-  background-color: rgb(48, 170, 246);
-  width: 65%;
-  height: 400px;
+.section-two > .section-background  {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.section-two .section-container  { 
+  width: 70%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px dotted black;
-}
-
-.section-two .section-container-left {
-  background-color: rgb(48, 170, 246);
-  width: 60%;
-  height: 100%;
-  border: 2px dotted black;
 }
 
 .section-two .section-container-right {
-  background-color: palevioletred;
-  width: 40%;
-  height: 100%;
-  border: 2px dotted black;
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-container-right-title {
+  padding-top: 50px;
+  padding-bottom: 25px;
 }
 
 /* Stile Section 3 */
