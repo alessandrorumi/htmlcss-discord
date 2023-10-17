@@ -5,27 +5,27 @@
   font-family: Whitney, ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 /* Stile Header */
 
 .header-background {
-  background-color: lightblue;
-  height: 50px;
+  background-color: #3161E0;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .header-container {
-  background-color: orange;
+  color: white;
   width: 65%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px dotted black;
-}
-
-.header-container div {
-  border: 1px dotted black;
 }
 
 .header-container-left, .header-container-right {
@@ -37,15 +37,28 @@
   width: 60%;
 }
 
+.header-container-middle a {
+  padding: 0px 10px;
+}
+
 .header-container-right {
   text-align: end;
+}
+
+.header-button {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  padding: 5px 8px;
+  border: none;
 }
 
 /* Stile Section 1 */
 
 .section-one > .section-background {
-  background-color: blue;
-  height: 450px;
+  background-image: url(../img/jumbo.png);
+  background-position: top;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
