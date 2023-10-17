@@ -10,10 +10,16 @@ a {
   color: white;
 }
 
+button {
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
+}
+
 /* Stile Header */
 
 .header-background {
-  background-color: #3161E0;
+  background-color: rgb(37,94,233);
   height: 80px;
   display: flex;
   justify-content: center;
@@ -57,21 +63,49 @@ a {
 
 .section-one > .section-background {
   background-image: url(../img/jumbo.png);
-  background-position: top;
   background-size: cover;
   display: flex;
+  justify-content: center;
+}
+
+.section-one .section-container {
+  /* background-color: palevioletred; */
+  width: 45%;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.section-one .section-container {
-  background-color: palevioletred;
-  width: 50%;
-  height: 400px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: 2px dotted black;
+h1 {
+  color: white;
+  font-size: 60px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.jumbo-button-one {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+
+.jumbo-button-two {
+  background-color: rgba(35,39,42,255);
+  color: white;
+  margin-left: 10px;
+  font-size: 18px;
+  height: 44px;
 }
 
 /* Stile Section 2 */
@@ -199,7 +233,7 @@ a {
 /* Stile Footer Top*/
 
 .footer-top-background  {
-  background-color: rgb(37, 37, 44);
+  background-color: rgba(35,39,42,255);
   height: 450px;
   display: flex;
   justify-content: center;
@@ -243,7 +277,7 @@ hr {
 }
 
 .footer-bottom-background {
-  background-color: rgb(37, 37, 44);
+  background-color: rgba(35,39,42,255);
   height: 80px;
   display: flex;
   justify-content: center;
