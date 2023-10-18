@@ -10,10 +10,18 @@ a {
   color: white;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 button {
   border-radius: 20px;
   padding: 10px 20px;
   border: none;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 h1 {
@@ -50,6 +58,10 @@ i {
   margin-top: 10px;
 }
 
+i:hover {
+  cursor: pointer;
+}
+
 .channels,
 .voicechat,
 .fandom,
@@ -65,6 +77,15 @@ ul {
 li {
   color: white;
   line-height: 32px;
+}
+
+li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.img-logo:hover {
+  cursor: pointer;
 }
 
 /* Stile Header */
@@ -154,6 +175,11 @@ li {
   height: 44px;
 }
 
+.img-wave {
+  color: #8ea1e1;
+  background-color: #8ea1e1;
+}
+
 /* Stile Section Channnels */
 
 .channels  {
@@ -179,6 +205,10 @@ li {
 
 /* Stile Section Voice Chat */
 
+.wave-img {
+  margin-bottom: -5px;
+}
+
 .voicechat  {
   background-color: rgb(247, 247, 247);
   display: flex;
@@ -193,6 +223,11 @@ li {
 .voicechat-container-left-title {
   margin-top: 30px;
   margin-bottom: 25px;
+}
+
+.wave-img-rotate {
+  margin-top: -5px;
+  transform: rotate(180deg);
 }
 
 /* Stile Section Fandom */
@@ -219,6 +254,10 @@ li {
 }
 
 /* Stile Section Multiscreen */
+
+.wave-img {
+  margin-bottom: -5px;
+}
 
 .multiscreen {
   background-color: rgb(247, 247, 247);
@@ -248,9 +287,7 @@ li {
 }
 
 .container-multiscreen-bottom-text {
-  background-image: url(../img/stars.svg);
-  margin-top: 60px;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
 .container-multiscreen-bottom-button > button {
