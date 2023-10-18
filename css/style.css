@@ -50,11 +50,10 @@ i {
   margin-top: 10px;
 }
 
-.section-one,
-.section-two,
-.section-three,
-.section-four,
-.section-five {
+.channels,
+.voicechat,
+.fandom,
+.multiscreen {
   padding-top: 125px;
   padding-bottom: 125px;
 }
@@ -111,20 +110,20 @@ li {
   border: none;
 }
 
-/* Stile Section 1 */
+/* Stile Section Jumbotron */
 
-.section-one {
+.jumbotron {
   padding: 0;
 }
 
-.section-one {
+.jumbotron {
   background-image: url(../img/jumbo.png);
   background-size: cover;
   display: flex;
   justify-content: center;
 }
 
-.section-one .section-container {
+.jumbotron .container {
   width: 45%;
   min-height: 500px;
   display: flex;
@@ -133,7 +132,7 @@ li {
   align-items: center;
 }
 
-.section-container-one-top > p {
+.container-jumbotron-top > p {
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
@@ -155,106 +154,106 @@ li {
   height: 44px;
 }
 
-/* Stile Section 2 */
+/* Stile Section Channnels */
 
-.section-two  {
+.channels  {
   background-color: white;
   display: flex;
   justify-content: center;
 }
 
-.section-two .section-container  { 
+.channels .container  { 
   width: 65%;
   display: flex;
   justify-content: space-between;
 }
 
-.section-two .section-container-right {
+.channels .container-right {
   width: 27%;
 }
 
-.section-two-container-right-title {
+.container-right-title {
   padding-top: 40px;
   padding-bottom: 25px;
 }
 
-/* Stile Section 3 */
+/* Stile Section Voice Chat */
 
-.section-three  {
+.voicechat  {
   background-color: rgb(247, 247, 247);
   display: flex;
   justify-content: center;
 }
 
-.section-three .section-container {
+.voicechat .container {
   width: 65%;
   display: flex;
 }
 
-.section-three-container-left-title {
+.voicechat-container-left-title {
   margin-top: 30px;
   margin-bottom: 25px;
 }
 
-/* Stile Section 4 */
+/* Stile Section Fandom */
 
-.section-four > .section-background  {
+.fandom > .background  {
   background-color: white;
   display: flex;
   justify-content: center;
 }
 
-.section-four .section-container  { 
+.fandom .container  { 
   width: 65%;
   display: flex;
   justify-content: space-between;
 }
 
-.section-four .section-container-right {
+.fandom .container-right {
   width: 27%;
 }
 
-.section-four-container-right-title {
+.fandom-container-right-title {
   padding-top: 15px;
   padding-bottom: 25px;
 }
 
-/* Stile Section 5 */
+/* Stile Section Multiscreen */
 
-.section-five {
+.multiscreen {
   background-color: rgb(247, 247, 247);
   display: flex;
   justify-content: center;
 }
 
-.section-five .section-container {
+.multiscreen .container {
   width: 65%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.section-container-five-top {
+.container-multiscreen-top {
   margin: 0 85px;
 }
 
-.section-five h2,
-.section-five p {
+.multiscreen h2,
+.multiscreen p {
   text-align: center;
 }
 
-.section-container-five-bottom {
+.container-multiscreen-bottom {
   width: 50%;
   text-align: center;
 }
 
-.container-five-bottom-text {
+.container-multiscreen-bottom-text {
   background-image: url(../img/stars.svg);
   margin-top: 60px;
   margin-bottom: 30px;
 }
 
-.container-five-bottom-button > button {
+.container-multiscreen-bottom-button > button {
   background-color: #8ea1e1;
   color: white;
 }
