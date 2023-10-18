@@ -204,6 +204,10 @@ li:hover {
   margin-bottom: -5px;
 }
 
+.wave-img img {
+  width: 100%;
+}
+
 .voicechat  {
   background-color: rgb(247, 247, 247);
   display: flex;
@@ -223,6 +227,10 @@ li:hover {
 .wave-img-rotate {
   margin-top: -5px;
   transform: rotate(180deg);
+}
+
+.wave-img-rotate img {
+  width: 100%;
 }
 
 /* Stile Section Fandom */
